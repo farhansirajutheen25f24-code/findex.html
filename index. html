@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KPRCAS Login</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #00416a, #e4e5e6);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-container {
+            background: #ffffff;
+            width: 350px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .login-container img {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #00416a;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #00416a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-container button:hover {
+            background-color: #003152;
+        }
+
+        .footer-text {
+            margin-top: 15px;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <!-- KPRCAS Logo -->
+        <img src="kprcas-logo.png" alt="KPRCAS Logo">
+
+        <h2>KPRCAS Login</h2>
+
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+
+        <div class="footer-text">
+            © 2025 KPR College of Arts Science and Research
+        </div>
+    </div>
+
+</body>
+</html>
